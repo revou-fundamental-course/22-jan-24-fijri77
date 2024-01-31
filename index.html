@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top E-Groceries Shop in Indonesia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navigation-grocery">
+        <img scr="your-logo".png" class="logo">
+        <ul class="navigation-items">
+            <li>Home</li>
+            <li>Our Package</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Top Rated E-Groceries Shop in Indonesia</h1>
+        <h4>Every Day With Best Ingredients</h4>
+        <img src="Asset/grocery-shop.jpg" alt="Header Img">
+    </header>
+    <div class="our-product">
+        <div>
+            <div class="circle" style="background-image: url('asset/alam-sinta.jpg');"></div>
+            <p>"Setiap hari beli sayur buah yang fresh disini"</p>
+        </div>
+    </div
+    <div class="inquiry-customer">
+        <div class="customer-data">
+            <div class="customer-name">Florence Hughes</div>
+            <div class="customer-info">Ibu Rumah Tangga,29</div>
+        </div>
+    
+        <form class="inquiry-form">
+            <div class="contact">
+                <h2 class=""subsection-title"Contact Us</h2> 
+               <p>
+                Contact Us
+            </p>  
+                <p> Sales akan menghubungi Anda 1x24 jam setelah data anda kami terima</p>
+               <form
+                 class="contact-form"
+                 name="contact-form"
+                 onsubmit="return validateForm()"
+                 >
+                 <div class="form-field">
+                   <label for="name" class="input-label">Your name:</label>
+                   <input
+                     type="text"
+                     id="name"
+                     name="name"
+                     class="input-field"
+                     placeholder="First name and last name"
+                     oninput="fillInput('name')"
+                   />
+                 </div>
+                 <div class="form-field">
+                   <label for="email" class="input-label">Email Address:</label>
+                   <input
+                     type="text"
+                     id="email"
+                     name="email"
+                     class="input-field"
+                     placeholder="example@email.com"
+                     oninput="fillInput('email')"
+                   />
+                 </div>
+                 <div class="form-field">
+                   <label for="interest" class="input-label"
+                     >What are you interested in?</label
+                   >
+                   <select
+                     id="interest"
+                     name="interest"
+                     class="input-field"
+                     oninput="selectInterest()"
+                   >
+                     <option value="none" selected disabled>Select option</option>
+                     <option value="option 1">Keluhan</option>
+                     <option value="option 2">Layanan order</option>
+                     <option value="option 3">Pengiriman</option>
+                     <option value="option 3">Saran</option>
+                   </select>
+                   </p>
+                 </div>
+                 <button type="submit" class="button">Send</button>
+               </form>
+             </div>
+           </div>
+         </div>
+        </form>
+        <div class="output">
+            <!-- put your output in here-->
+        </div>
+    </div>
+    <hr class="border />
+    <div class="feature">
+        <h3 class="subsection-title"> Keuntungan Layanan yang Anda Dapatkan dengan E-Groceries Kami:
+        </h3>
+        <div class="feature-list">
+            <div class="feature-items">
+                <div class="feature-icon">
+                    <i data feather="award"></i>
+            </div>
+            <div class="feature-description">Belanja Praktis dan Efisien</div>
+        </div>
+        <div class="feature-list">
+            <div class="feature-items">
+                <div class="feature-icon">
+                    <i data feather="award"></i>
+            </div>
+            <div class="feature-description">Beragam Pilihan Produk</div>
+        </div>
+        <div class="feature-list">
+            <div class="feature-items">
+                <div class="feature-icon">
+                    <i data feather="award"></i>
+            </div>
+            <div class="feature-description">Promo dan Diskon Menarik</div>
+        </div>
+        <div class="feature-list">
+            <div class="feature-items">
+                <div class="feature-icon">
+                    <i data feather="award"></i>
+            </div>
+            <div class="feature-description">Layanan Pelanggan yang Responsif</div>
+        </div>
+        </div>
+        </div>
+    </div>
+        </div>
+        <div class="package" id="our-package">
+            <div class="package-banner">
+              <div class="container">
+                <h2 class="section-title">Our Packages</h2>
+              </div>
+            </div>
+            <div>
+                <section class="Package">
+                    <ul>
+                        <li>Fresh Vegetables</li>
+                        <div class="feature-description">Sayuran segar langsung dari sumber pertanian terbaik</div>
+                        <li>Fresh Fruit</li>
+                        <div class="feature-description">Buah dengan kualitas terbaik dari local atau import dan harga yang menarik</div>
+                        <li>Instant Delivery</li>
+                        <div class="feature-description">Dikirim instant oleh kurir professional sesuai SOP untuk menjaga kondisi belanja kamu</div>
+                        <li>Kitchen Ingredient</li>
+                        <div class="feature-description">Bumbu dapur lengkap untuk keperluan memasak kamu</div>
+                        <li>Kitchen Set</li>
+                        <div class="feature-description">Segala jenis alat masak untuk membantu kamu memasak</div>
+                        <li>Bunding Set</li>
+                        <div class="feature-description">Bingung masak apa? sudah tersedia paket untuk kamu masak di dapur mu</div>
+                    </ul>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cta" id="call-us">
+            <div class="container">
+              <h2 class="section-title">Future with Our E-Groceries</h2>
+              <p>Solusi untuk Pengalaman Berbelanja Lebih Mudah</p>
+              <button class="button">Hubungi Kami</button>
+            </div>
+          </div>
+        </main>
+        <footer class="footer">
+          <div class="container">
+           
+            <ul class="footer-navigation">
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <div>
+            Copyright &copy; 2024 <a href="https://kapanliburan.com/">fijri</a>
+            </div>
+          </div>
+        </footer>
+        <script>
+          feather.replace();
+        </script>
+        <script src="./js/script.js"></script>
+      </body>
+    </html>
+    </div>
+</body>
+</html>
